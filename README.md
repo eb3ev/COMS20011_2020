@@ -42,18 +42,16 @@ Important: these are not pre-requisites!  Please don't try to look at all of the
 ## Weekly lecture material
 #### Week 13: 01/02/2021 (Majid)
 
-Data Acquisition & Pre-processing
-
-| Lecture | video | slides |
-| ------ | ---- | --- |
-| 1. Intro to COMS20111 - very fishy | [[Stream link]](https://web.microsoftstream.com/video/ac0feac5-3cce-4126-abd3-4238f43b7a84) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM01.pdf) |
-| 2. Intro - Part 2 - example projects | [[Stream link]](https://web.microsoftstream.com/video/cd65111b-9d1e-45db-ad21-d01198d9aafd) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM02.pdf) |
-| 3. Data Acquisition - Sampling - Acquisition  |  [[Stream link]](https://web.microsoftstream.com/video/23599d61-e2dd-4d25-ae33-c93ccf8ddc3e) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM03.pdf) |
-| 4. Data Characteristics - Distance Measures  | [[Stream link]](https://web.microsoftstream.com/video/5ca552a0-e474-4dcb-b638-ea01e3e41d8f) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM04.pdf) |
-| 5. Data Characteristics - Covariance - Eigen Analysis - Outliers | [[Stream link]](https://web.microsoftstream.com/video/7c423f3b-6aff-4b44-a1b7-5305c662c81b) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM05.pdf) |
-| Problem Sheet 1 **Updated - New Q 12/02/21**  | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet01.pdf) |
-| Problem Sheet 1 **Updated - New Q/A 12/02/21** | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet01-Answers.pdf) |
-| Q&A Session  | [[Stream link]](https://web.microsoftstream.com/video/fe4adfe4-4369-4321-9547-64bcd85a0dfb) | - |
+| Lecture | Duration | video | slides |
+| ------ | ---- | --- | --- |
+| MM01. Intro to COMS20111 - very fishy | 14:44 | [[Stream link]](https://web.microsoftstream.com/video/ac0feac5-3cce-4126-abd3-4238f43b7a84) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM01.pdf) |
+| MM02. Intro - Part 2 - example projects | 12:19 | [[Stream link]](https://web.microsoftstream.com/video/cd65111b-9d1e-45db-ad21-d01198d9aafd) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM02.pdf) |
+| MM03. Data Acquisition - Sampling - Acquisition | 10:38 |  [[Stream link]](https://web.microsoftstream.com/video/23599d61-e2dd-4d25-ae33-c93ccf8ddc3e) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM03.pdf) |
+| MM04. Data Characteristics - Distance Measures  | 15:55 | [[Stream link]](https://web.microsoftstream.com/video/5ca552a0-e474-4dcb-b638-ea01e3e41d8f) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM04.pdf) |
+| MM05. Data Characteristics - Covariance - Eigen Analysis - Outliers | 20:50| [[Stream link]](https://web.microsoftstream.com/video/7c423f3b-6aff-4b44-a1b7-5305c662c81b) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM05.pdf) |
+| Problem Sheet  **Updated - New Q 12/02/21**  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet01.pdf) |
+| Problem Sheet  **Updated - New Q/A 12/02/21** | - |Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet01-Answers.pdf) |
+| Q&A Session  | 60:00 | [[Stream link]](https://web.microsoftstream.com/video/fe4adfe4-4369-4321-9547-64bcd85a0dfb) | - |
 
 
 
@@ -98,6 +96,7 @@ Data Acquisition & Pre-processing
 | 3. EM for Gaussian mixture models| [[Stream link]](https://web.microsoftstream.com/video/0c8216e8-bdd3-4f3e-b713-29021e7ec950) | [[notebook 5]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/part_5_clustering.ipynb) |
 | 4. Objective for EM [Non-examinable]| [[Stream link]](https://web.microsoftstream.com/video/2816e646-b599-4593-b679-d60bb6d1f47b) | [[notebook 5]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/part_5_clustering.ipynb) |
 | Problem Sheet W18 | | [[notebook]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/Question_Sheet_3_clustering.ipynb) |
+| Q&A Session (lots about CW!) | [[Stream link]](https://web.microsoftstream.com/video/7f37470c-bfb4-42fd-bab6-f48a921aaa6d) | - |
 
 
 
@@ -110,3 +109,35 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | [[notebook 3]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/part_3_overfitting.pdf) |
 | [[notebook 4]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/part_4_classification.pdf) |
 
+
+#### Week 19: 15/03/2021 (Majid)
+| Lecture | Duration | video | slides |
+| ------ | ---- | --- | --- |
+| MM06. Signals & Frequencies | 13:26 | [[Stream link]](https://web.microsoftstream.com/video/14b5252d-f4aa-4caf-8f75-9326325ddc38)| [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM06.pdf)|
+| MM07. Fourier Series | 10:28 | [[Stream link]](https://web.microsoftstream.com/video/f35ba189-8d81-48be-9b02-c0d6530d8e44) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM07.pdf) |
+| MM08. 1D Fourier Transform  | 17:18| [[Stream link]](https://web.microsoftstream.com/video/14e4fee4-d38f-4225-9a8a-46b2f8787150) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM08.pdf) |
+| Problem Sheet MM02  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02.pdf) |
+| Problem Sheet MM02  | - | Answers  [[sines.py]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/sines.py)  | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02-Solutions.pdf) |
+| Q&A Session  | 58:33 | [[Stream link]](https://web.microsoftstream.com/video/64299869-0bed-4d8d-88a8-afe7f896a531) | - |
+
+#### Week 20: 22/03/2021 (Majid)
+| Lecture | Duration | video | slides |
+| ------ | ---- | --- | --- |
+| MM09. 2D Fourier Transform | 14:45 | [[Stream link]](https://web.microsoftstream.com/video/d26f12b1-6e6e-45aa-922e-1bc3b4576109) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM09.pdf) |
+| MM10. Frequency Features | 19:16 | [[Stream link]](https://web.microsoftstream.com/video/2f3975e9-45f0-49cb-bbc9-ab130328861d) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM10.pdf) |
+| Problem Sheet MM03  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03.pdf) |
+| Problem Sheet MM03  | - | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03-Solutions.pdf) |
+| Q&A Session  | - | [[Stream link]] | After Easter Break |
+
+#### Week 21: 19/04/2021 (Majid)   
+#### Week 21: The videos and problem sheet are added now in case it's helpful to have more time on this final material for Week 21.
+| Lecture | Duration | video | slides |
+| ------ | ---- | --- | --- |
+| MM11. More on Features | 20:53 | [[Stream link]](https://web.microsoftstream.com/video/7295f9cb-a6d3-497b-8081-ed4e3a7b41ad) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM11.pdf) |
+| MM12. Convolutions | 20:02 | [[Stream link]](https://web.microsoftstream.com/video/249e6264-e6d5-4f8e-9280-1445e715978e) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM12.pdf) |
+| Optional Playthings | *** | [[sobel.py]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/sobel.py) | [[FFT.py]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/FFT.py) |
+| Problem Sheet MM04  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM04.pdf) |
+| Problem Sheet MM04  | - | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM04-Solutions.pdf)|
+| Q&A Session  | - | [[Stream link]] | After Easter Break  |
+
+*** The image gif files for the Optional Playthings are in the ProblemSheets folder (see above). Equivalent Matlab code can be copy-pasted from lecture PDF.
