@@ -143,3 +143,6 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | Q&A Session  | - | [[Stream link]] | After Easter Break  |
 
 *** The image gif files for the Optional Playthings are in the ProblemSheets folder (see above). Equivalent Matlab code can be copy-pasted from lecture PDF.
+
+#### Coursework Q&A
+[19/04](https://web.microsoftstream.com/video/bf7bfd50-409d-4615-93cc-9214ca952236)
