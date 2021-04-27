@@ -198,4 +198,26 @@ Note the presence of both the original points (blue dots) and fitted line segmen
     \item You probably shouldn't use regularisation (the coursework is designed under the assumption that you'll use the simplest possible function classes to mitigate overfitting, rather than regularisation).
     \item In some settings (especially with noisy data), you might improve cross-validation performance by using a polynomial with a too-low order.  We're really looking for the one polynomial (remember, same across all segments in all files) that we used to generate data.  So you might find segments where using a too-low order to mitigate overfitting helps cross-validation sometimes.  (Noise-free data are your friend here).
 \end{itemize}
+
+\appendix
+
+\section{Odd vertical offsets and the precision of matrix inversion}
+
+In a recent Q\&A session, Peter Marsh raised the issue of strange vertical offsets when using the usual formula for linear regression, especially when using higher-order polynomials.
+
+\includegraphics[width=0.4\textwidth]{offset.png}
+
+\textbf{We only got to the bottom of these issues a week before the final deadline, so no one is going to be penalised if they don't deal with this issue (or even for including plots that look like this)! There are no marks for discussing these issues in the report (you can include it, but it will take space away from topics that will be marked).}
+
+Matthew Nagy and Jonathan Marriott noted that this might be an issue with the numerical stability in the matrix inversion.
+In particular, \texttt{np.linalg.inv} gives ever-so-slightly wrong answers, and in a few settings this can cause major issues in the plotting.
+There are a few potential solutions.
+\begin{itemize}
+  \item Note that the $x$'s in this plot are all large and postive.  This causes all the $x$, $x^2$, $x^3$ features to be highly correlated, which can cause instabilities. To fix this, you could include an additive offset for the $x$'s (in this example subtracting $\sim 20$) to make the $x$'s roughly centered on $0$.  Note that this only works because polynomials with an additive offset in the $x$'s are still polynomials (i.e. $a x^2 + b x + c = a' (x-\theta)^2 + b' (x-\theta) + c'$).  This might not be true for the unknown function, so \textbf{don't add an x-offset when fitting the unknown function!}
+  \item Use $(\mathbf{X}^T \mathbf{X} + \delta \mathbf{I})^{-1}$ rather than $(\mathbf{X}^T \mathbf{X})^{-1}$, where $\delta$ is small relative to $\mathbf{X}^T \mathbf{X}$.  The extra diagonal component should make the matrix inverse more stable.  But be careful!  This is very similar to regularisation, so may make higher-order polynomials appear to fit better.
+  \item Combine the matrix-multiply and matrix-inverse operations using \texttt{np.linalg.solve} rather than \texttt{np.linalg.inv}.  This is probably the hardest to implement,because the documentation for \texttt{np.linalg.solve} isn't very good, and I can't give more details on how top use it effectively without giving away a key part of the solution.  So if you're not happy with this approach and you still need to resolve this issue, try one of the first two approaches!
+\end{itemize}
+As always with numerical computations, these strategies may work in some circumstances and fail in others, so always do careful testing!
+And it certainly isn't the case that one of these is the ``best'' answer.
+
 \end{document}
