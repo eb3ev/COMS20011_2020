@@ -207,7 +207,9 @@ In a recent Q\&A session, Peter Marsh raised the issue of strange vertical offse
 
 \includegraphics[width=0.4\textwidth]{offset.png}
 
-\textbf{We only got to the bottom of these issues a week before the final deadline, so no one is going to be penalised if they don't deal with this issue (or even for including plots that look like this)! There are no marks for discussing these issues in the report (you can include it, but it will take space away from topics that will be marked).}
+Importantly, you don't actually need to address this issue to solve the CW (which is why we hadn't uncovered the issue until now; it seems to emerge mainly for a few segements and for polynomials that are higher-order than the true ones).
+
+\textbf{Further, we only got to the bottom of these issues a week before the final deadline, so no one is going to be penalised if they don't deal with this issue (or even for including plots that look like this)! There are no marks for discussing these issues in the report (you can include it, but it will take space away from topics that will be marked).}
 
 Matthew Nagy and Jonathan Marriott noted that this might be an issue with the numerical stability in the matrix inversion.
 In particular, \texttt{np.linalg.inv} gives ever-so-slightly wrong answers, and in a few settings this can cause major issues in the plotting.
